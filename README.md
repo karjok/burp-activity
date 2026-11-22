@@ -339,6 +339,28 @@ double-ingestion.
 
 ---
 
+## Credits
+
+This project builds on excellent open-source and vendor work:
+
+- **[OWASP Coreruleset (CRS)](https://github.com/coreruleset/coreruleset)** —
+  the detection rules ported into `analyzer/CorerulesetRule.java` (version
+  **4.31.0**, Apache License 2.0). CRS is maintained by the OWASP CRS project
+  and its contributors. The ModSecurity phases/anomaly scoring are replaced by
+  this extension's `DetectionContext`; the regex payloads are reused.
+- **[PortSwigger Montoya API](https://github.com/PortSwigger/burp-extensions-montoya-api)** —
+  the Burp Suite extension API used for passive traffic observation, editors,
+  suite tabs and theme integration
+  (`net.portswigger.burp.extensions:montoya-api:2026.7`, Apache License 2.0).
+- **Burp Suite Professional** — the host application and native request/response
+  editors.
+- **SQLite** via [sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)
+  (Apache License 2.0).
+
+Thank you to the maintainers and contributors of these projects.
+
+---
+
 ## License & scope
 
 This extension is for activity reconstruction and reporting. It deliberately
