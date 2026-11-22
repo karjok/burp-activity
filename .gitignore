@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# Packaged extension
+burp-activity.jar
+
+# Local runtime data
+activity.db
+activity.db-*
+activity.log*
+*.lck
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
