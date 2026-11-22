@@ -22,6 +22,38 @@ asserts that a vulnerability exists.
 
 ---
 
+## Screenshots
+
+All screenshots use a **synthetic demo project** (`Demo Engagement — Acme Corp`,
+283 requests / 90 activities). No real traffic, customer data or license details
+are shown.
+
+### Dashboard — request/activity totals, distribution and daily volume
+![Dashboard](docs/screenshots/01-dashboard.png)
+
+### Activity Explorer — searchable activities with the tested parameter and evidence
+![Activity Explorer](docs/screenshots/02-activity-explorer.png)
+
+### Activity Detail — merged requests + detection evidence, split request/response editors with highlighting
+![Activity Detail](docs/screenshots/03-activity-detail.png)
+
+### Timeline — chronological sessions with the daily volume chart
+![Timeline](docs/screenshots/04-timeline.png)
+
+### Daily Summary — scope-aware report with KPI cards
+![Daily Summary](docs/screenshots/05-daily-summary.png)
+
+### Projects — one activity project bound to each Burp project
+![Projects](docs/screenshots/06-projects.png)
+
+### Settings — storage, detection, theme and About
+![Settings](docs/screenshots/07-settings.png)
+
+### Table layout — show/hide columns, pack and reset from the header menu
+![Column layout](docs/screenshots/08-columns.png)
+
+---
+
 ## Build
 
 | Requirement   | Version                                                    |
