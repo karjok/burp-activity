@@ -26,31 +26,18 @@ asserts that a vulnerability exists.
 
 All screenshots use a **synthetic demo project** (`Demo Engagement — Acme Corp`,
 283 requests / 90 activities). No real traffic, customer data or license details
-are shown.
+are shown. The extension follows Burp's light/dark theme; both are shown below.
 
-### Dashboard — request/activity totals, distribution and daily volume
-![Dashboard](docs/screenshots/01-dashboard.png)
-
-### Activity Explorer — searchable activities with the tested parameter and evidence
-![Activity Explorer](docs/screenshots/02-activity-explorer.png)
-
-### Activity Detail — merged requests + detection evidence, split request/response editors with highlighting
-![Activity Detail](docs/screenshots/03-activity-detail.png)
-
-### Timeline — chronological sessions with the daily volume chart
-![Timeline](docs/screenshots/04-timeline.png)
-
-### Daily Summary — scope-aware report with KPI cards
-![Daily Summary](docs/screenshots/05-daily-summary.png)
-
-### Projects — one activity project bound to each Burp project
-![Projects](docs/screenshots/06-projects.png)
-
-### Settings — storage, detection, theme and About
-![Settings](docs/screenshots/07-settings.png)
-
-### Table layout — show/hide columns, pack and reset from the header menu
-![Column layout](docs/screenshots/08-columns.png)
+| Feature | Light | Dark |
+|---------|-------|------|
+| **Dashboard** — totals, distribution and daily volume | ![Dashboard](docs/screenshots/01-dashboard.png) | ![Dashboard (dark)](docs/screenshots/dark/01-dashboard.png) |
+| **Activity Explorer** — searchable activities, tested parameter, evidence | ![Explorer](docs/screenshots/02-activity-explorer.png) | ![Explorer (dark)](docs/screenshots/dark/02-activity-explorer.png) |
+| **Activity Detail** — merged requests + evidence, split editors with highlighting | ![Detail](docs/screenshots/03-activity-detail.png) | ![Detail (dark)](docs/screenshots/dark/03-activity-detail.png) |
+| **Timeline** — sessions by day with the daily volume chart | ![Timeline](docs/screenshots/04-timeline.png) | ![Timeline (dark)](docs/screenshots/dark/04-timeline.png) |
+| **Daily Summary** — scope-aware report with KPI cards | ![Daily Summary](docs/screenshots/05-daily-summary.png) | ![Daily Summary (dark)](docs/screenshots/dark/05-daily-summary.png) |
+| **Projects** — one activity project bound to each Burp project | ![Projects](docs/screenshots/06-projects.png) | ![Projects (dark)](docs/screenshots/dark/06-projects.png) |
+| **Settings / About** — storage, detection, theme and author links | ![Settings](docs/screenshots/07-settings.png) | ![Settings (dark)](docs/screenshots/dark/07-settings.png) |
+| **Table layout** — show/hide columns, pack and reset | ![Columns](docs/screenshots/08-columns.png) | ![Columns (dark)](docs/screenshots/dark/08-columns.png) |
 
 ---
 
