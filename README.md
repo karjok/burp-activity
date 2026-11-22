@@ -24,10 +24,6 @@ asserts that a vulnerability exists.
 
 ## Screenshots
 
-All screenshots use a **synthetic demo project** (`Demo Engagement — Acme Corp`,
-283 requests / 90 activities). No real traffic, customer data or license details
-are shown. The extension follows Burp's light/dark theme; both are shown below.
-
 | Feature | Light | Dark |
 |---------|-------|------|
 | **Dashboard** — totals, distribution and daily volume | ![Dashboard](docs/screenshots/01-dashboard.png) | ![Dashboard (dark)](docs/screenshots/dark/01-dashboard.png) |
